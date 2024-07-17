@@ -31,6 +31,10 @@ const statisticsVertical = [
     subtitle: 'Last Six months',
   },
 ]
+
+import Layout from '@/layouts/default.vue'
+defineOptions({layout: Layout})
+
 </script>
 
 <template>

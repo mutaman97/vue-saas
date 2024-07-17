@@ -13,6 +13,10 @@ import EcommerceWeeklySalesBg from '@/views/dashboards/ecommerce/EcommerceWeekly
 import illustration1 from '@images/cards/illustration-1.png'
 import illustration2 from '@images/cards/illustration-2.png'
 
+import Layout from '@/layouts/default.vue'
+
+defineOptions({ layout: Layout })
+
 const statisticsWithImages = [
   {
     title: 'Ratings',
